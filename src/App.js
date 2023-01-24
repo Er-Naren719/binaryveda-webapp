@@ -1,12 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header/Header";
 
 function App() {
-  return (
-    <div className="App">
-      Welcome To Binaryveda WebApp!
-    </div>
-  );
+	return (
+		<div className="App container">
+			<header>
+				<Header />
+			</header>
+			<main>Welcome To Binaryveda WebApp!</main>
+      <footer>
+        Footer goes here.
+      </footer>
+		</div>
+	);
 }
 
 export default App;

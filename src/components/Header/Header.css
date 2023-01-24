@@ -1,0 +1,62 @@
+.navbar-brand {
+	margin: 0;
+}
+
+.navbar-brand .separator {
+	margin: 0 5px;
+}
+
+.navbar-brand .developers {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.navbar-toggler.collapsed {
+	border: none;
+	outline: none;
+}
+
+.navbar-toggler.collapsed span {
+	background-image: url(../../assets/hamburger-menu.png);
+}
+
+.nav-link,
+.dropdown-item {
+	padding: 10px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.sign-up-button {
+  padding: 5px 8px;
+	border-radius: 20px;
+	margin: 0 0 0 10px;
+	background: #fff;
+	color: #000;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.sign-up-button:hover {
+  border-color: #57B3F9;
+  background: #57B3F9;
+  color: #fff;
+}
+
+.dropdown-menu {
+  padding: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-link {
+    color: #000;
+  }
+  
+  .sign-up-button {
+    margin: 15px 0 0 0;
+  }
+}
