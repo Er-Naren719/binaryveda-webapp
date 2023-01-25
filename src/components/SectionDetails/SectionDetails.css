@@ -1,0 +1,32 @@
+.section-details {
+	margin: 0 auto;
+	text-align: left;
+}
+
+.broad-section {
+	width: 40%;
+	text-align: center;
+}
+
+.side-section {
+	width: 40%;
+	margin-left: 0;
+}
+
+.side-section.text-right {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.section-details h2 {
+	margin-bottom: 20px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.section-details p {
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 21px;
+}

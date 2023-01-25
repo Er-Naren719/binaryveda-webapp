@@ -1,0 +1,40 @@
+button {
+	padding: 10px 25px;
+	border: 0;
+	border-radius: 20px;
+	margin-right: 15px;
+	outline: none;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.primaryButton {
+	border: 1px solid #57B3F9;
+	background: #57B3F9;
+	color: #fff;
+}
+
+.lightButton {
+	border: 1px solid #fff;
+}
+
+.darkButton {
+	border: 1px solid #fff;
+	background: #000;
+	color: #fff;
+}
+
+.primaryButton:hover {
+	background: #fff;
+	color: #57B3F9;
+}
+
+.lightButton:hover {
+	background: #000;
+	color: #fff;
+}
+
+.darkButton:hover {
+	background: #fff;
+	color: #000;
+}

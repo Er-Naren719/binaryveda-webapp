@@ -1,0 +1,15 @@
+.logo-column,
+.section-heading,
+.list-unstyled {
+  text-align: left;
+}
+
+.section-heading {
+  font-weight: 700;
+}
+
+.list-unstyled li {
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 18px;
+}
