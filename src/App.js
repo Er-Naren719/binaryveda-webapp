@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import SectionDetails from "./components/SectionDetails/SectionDetails";
 import Illustration from "./assets/illustration.png";
 import Showcase from "./assets/showcase.png";
+import Botbot from "./assets/botbot.png";
 import Button from "./components/Button/Button";
 import CustomCard from "./components/CustomCard/CustomCard";
 import { CustomCardData } from "./Data";
@@ -25,12 +26,16 @@ function App() {
 						>
 							<Button
 								buttonText="Submit your app"
-								buttonStyle="primaryButton"
+								buttonStyle="lightButton"
 							/>
-							<Button buttonText="View API Docs" buttonStyle="lightButton" />
+							<Button buttonText="View API Docs" buttonStyle="darkButton" />
 						</SectionDetails>
-						<div className="img-container">
-							<img src={Illustration} alt="Illustration"></img>
+						<div className="img-container width-50">
+							<img
+								className="w-100"
+								src={Illustration}
+								alt="Illustration"
+							></img>
 						</div>
 					</section>
 					<section className="section-2">
@@ -53,15 +58,16 @@ function App() {
 							<Button buttonText="Become a partner" buttonStyle="lightButton" />
 							<Button buttonText="View Integrations" buttonStyle="darkButton" />
 						</SectionDetails>
-						<div className="img-container">
-							<img src={Showcase} alt="Showcase"></img>
+						<div className="img-container width-50">
+							<img className="w-100" src={Showcase} alt="Showcase"></img>
 						</div>
 					</section>
 					<section className="section-4 flex-section">
-						<div className="todo-container">
-							<img src={Showcase} alt="Showcase"></img>
+						<div className="img-container width-50">
+							<img className="w-100" src={Botbot} alt="Botbot"></img>
 						</div>
-						<SectionDetails blockStyle="text-right"
+						<SectionDetails
+							blockStyle="text-right"
 							title="A Slack-bot for creating and managing prototypes"
 							desc="Building something special? We're always looking to work with partners who wants to help the world bring their ideas to life."
 						>
@@ -71,8 +77,8 @@ function App() {
 					</section>
 				</main>
 				<footer>
-          <Footer />
-        </footer>
+					<Footer />
+				</footer>
 			</div>
 		</div>
 	);

@@ -8,12 +8,6 @@ button {
 	line-height: 18px;
 }
 
-.primaryButton {
-	border: 1px solid #57B3F9;
-	background: #57B3F9;
-	color: #fff;
-}
-
 .lightButton {
 	border: 1px solid #fff;
 }
@@ -24,17 +18,20 @@ button {
 	color: #fff;
 }
 
-.primaryButton:hover {
-	background: #fff;
-	color: #57B3F9;
-}
-
 .lightButton:hover {
-	background: #000;
+	border-color: #57B3F9;
+	background: #57B3F9;
 	color: #fff;
 }
 
 .darkButton:hover {
 	background: #fff;
 	color: #000;
+}
+
+@media screen and (max-width: 767px) {
+	button {
+		padding: 10px 20px;
+		margin: 0;
+	}
 }

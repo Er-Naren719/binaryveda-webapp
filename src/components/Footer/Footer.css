@@ -1,15 +1,27 @@
 .logo-column,
 .section-heading,
 .list-unstyled {
-  text-align: left;
+	text-align: left;
 }
 
 .section-heading {
-  font-weight: 700;
+	font-weight: 700;
 }
 
 .list-unstyled li {
-  margin-bottom: 5px;
-  font-size: 12px;
-  line-height: 18px;
+	margin-bottom: 5px;
+	cursor: pointer;
+  color: #ccc;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.list-unstyled li:hover {
+	color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .logo-column {
+    margin-bottom: 30px;
+  }
 }

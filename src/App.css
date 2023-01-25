@@ -48,6 +48,10 @@ main section {
 	align-items: flex-start;
 }
 
+.width-50 {
+	width: 50%;
+}
+
 .flex-section,
 .custom-card-container {
 	display: flex;
@@ -57,4 +61,46 @@ main section {
 
 footer {
 	padding-bottom: 100px;
+}
+
+@media screen and (max-width: 767px) {
+	.flex-section,
+	.custom-card-container {
+		display: block;
+	}
+
+	.section-1 {
+		height: auto;
+	}
+
+	.section-1 .button-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.width-50 {
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.section-3 {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.section-3 .img-container {
+		margin-top: 0;
+	}
+
+	.section-3 .button-container button,
+	.section-4 .button-container button {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.section-3 .button-container .lightButton,
+	.section-4 .button-container .lightButton {
+		margin-bottom: 15px;
+	}
 }
